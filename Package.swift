@@ -12,7 +12,7 @@ let package = Package(
     .library(name: "Git", targets: ["Git", "swift_git_init"]),
   ],
   dependencies: [
-    .package(url: "https://github.com/glushchenko/swift-cgit2", from: "1.2.1"),
+    .package(url: "https://github.com/glushchenko/swift-cgit2", from: "1.2.2"),
     .package(url: "https://github.com/apple/swift-system", from: "0.0.2"),
   ],
   targets: [
